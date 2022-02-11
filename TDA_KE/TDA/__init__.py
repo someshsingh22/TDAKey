@@ -1,0 +1,1 @@
+from TDA.grab_weights import grab_weights_for_all
