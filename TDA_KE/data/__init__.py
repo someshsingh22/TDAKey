@@ -3,4 +3,4 @@ dataset_folders = {
     "SE-2010": "processed_semeval-2010",
     "SE-2017": "SemEval-2017",
 }
-from KP_Dataloader import get_dataloader as get_KP_dataloader
+from TDA_KE.data.KP_Dataloader import get_dataloader as get_KP_dataloader
