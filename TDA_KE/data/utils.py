@@ -1,5 +1,6 @@
 from flair.data import Sentence
 
+
 def truncate_sequence(text, tokenizer, max_seq_len):
     """
     Truncate Longer sequences to max_seq_len
