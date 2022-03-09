@@ -30,7 +30,6 @@ def get_dataloader(
         test_file=TEST_FILE,
         dev_file=DEV_FILE,
     )
-    tag_dictionary = corpus.make_tag_dictionary(tag_type=tag_type)
     if downsample_train > 0:
         corpus.downsample(percentage=downsample_train, only_downsample_train=True)
     stats = corpus.obtain_statistics()

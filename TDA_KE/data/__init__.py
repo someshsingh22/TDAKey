@@ -4,3 +4,4 @@ dataset_folders = {
     "SE-2017": "SemEval-2017",
 }
 from TDA_KE.data.KP_Dataloader import get_dataloader as get_KP_dataloader
+from TDA_KE.data.utils import truncate_sequence
